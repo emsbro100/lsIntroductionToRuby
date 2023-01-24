@@ -1,0 +1,18 @@
+Abstraction
+  Abstraction is the level of depth that someone uses/understands something at.
+  - Examples:
+      - In computers, typical users are at a very high level of abstraction, simply using programs and playing games.
+        Computer repairsmen are at a lower level level of abstraction, working with the components that those run on.
+        And software developers are at an even lower level, managing how the operating system interacts with those components.
+      - In programming, scripting languages are at a higher level of abstraction.
+        Ruby as a scripting language is translated into C, what it's written in, then translated to Assembly, which translates it into 1s and 0s for the computer to understand.
+        The level lower than scripting languages is compiled programming languages such as C, C++, and Java.
+        The level above would be Domain Specific Languages (DSL's) such as Rails and Rspec.
+Do To Understand
+  Learning must be a hands-on experience to be effective.
+  - Learning by simply reading and comprehending will give you a theoretical understanding, but not a deep understanding.
+    To truly understand how something works, you must play around with it and use it yourself, so that you can understand it's edge cases and uses.
+  - You must use knowledge not just once, but repeatedly over an extended period of time to gain depth of knowledge and skill.
+    It is not enough to just understand how something works, you need to understand why it works and what it works for,
+    and be able to use it not just by loading it from memory and thinking of how to use it every time, but by knowing it by heart and being able to use it without having to think about it in depth.
+  - This is why when learning any topic you should take notes, experiment, take notes again, and use it. Then review those notes until you know the topic by heart.

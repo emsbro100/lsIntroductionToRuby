@@ -1,2 +1,29 @@
+Ruby Version Managers
+  Version managers are powerful tools that allow you to install and use multiple versions of ruby at one time.
+  - I have uru, to use it just run uru [version].
+    To install another version, use RubyInstaller and uru add.
+  - For Linux users you have access to rvm, rbenv, and others.
+  - Mac users have one choice, which is installing with Homebrew.
+
+Ruby Style
+  There are a few style guidelines that Rubyists should always follow:
+  - Anything after a # is a comment
+  - Methods, variables, and files should always follow snake_case formatting.
+  - Classes should always follow PascalCase/CamelCase formatting.
+  - Constants are declared using all uppercase letters.
+  - For do...end blocks, prefer { } if the expression fits on a single line.
+
+Reading Documentation
+  The documentation, sometimes referred to as the API, is the most vital and plentiful resource to learn more about anything in Ruby.
+  - The class name is the large name/headline at the top of a page. 
+    - This is often something like "String" or "Control Expressions", but it can also be something like "Encoding::Converter".
+  - Methods
+    - All methods beginning with :: are class methods, these are methods available to the class that are used like Class.method(instance)
+    - All methods beginning with # are instance methods, these are methods available to an instance that are used like instance.method(arguments)
+    - Every sub-class has a parent class that it can inherit classes from.
+      - For example, String has its own class and instance methods, but also has methods from its parent Object.
+    - Included modules are modules whose functionality is available to a class.
+      - For example, String includes teh module Comparable, which allows you to use #between?.
+
 In general, if you need to determine the modulo or remainder of two integers, try to work with positive integers exclusively.
 If you can't, then make sure you know exactly which operator or method you need to use when working with negative integers.
