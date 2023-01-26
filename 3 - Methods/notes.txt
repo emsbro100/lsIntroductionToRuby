@@ -1,0 +1,9 @@
+Call Stack
+  The Call Stack is what keeps track of what lines and layers the program is at, and makes it able to continue running once a method or block completes execution.
+  - Every time a method is called, the current level of the stack is "paused" and noted. 
+    For example, if you call add_integers at line 10, it will add main: line 10 to the stack then start running add_integers.
+      If within add_integers at line 6 it calls puts, it will add add_integers: line 6 to the stack and evaluate puts.
+      This will continue for any and all method calls.
+    Once add_integers completes execution, it is popped from the call stack, and the program continues at whichever line/method now occupies the top frame of the call stack.\
+  - The call stack has limited size that varies based on the version of ruby. Usually it is capable of at least 10,000 entries. 
+    If you're seeing a SystemStackError, there's a good chance that you have an infinite loop of method calls within your code.

@@ -23,7 +23,4 @@ Reading Documentation
     - Every sub-class has a parent class that it can inherit classes from.
       - For example, String has its own class and instance methods, but also has methods from its parent Object.
     - Included modules are modules whose functionality is available to a class.
-      - For example, String includes teh module Comparable, which allows you to use #between?.
-
-In general, if you need to determine the modulo or remainder of two integers, try to work with positive integers exclusively.
-If you can't, then make sure you know exactly which operator or method you need to use when working with negative integers.
+      - For example, String includes the module Comparable, which allows you to use #between?.

@@ -1,0 +1,9 @@
+Modulo vs Remainder
+  The modulo operator looks like % and is used like 16 % 5 => 1
+  The remainder method is used like 16.remainder(5) => 1
+  - The #divmod method returns an array containing both the reuslt of division and modulo of two values.
+  - There are two key differences between modulo and remainder:
+      Modulo operations return a positive integer when the second operand is positive, and a negative integer when the second operand is negative.
+      Remainder operations return a positive integer when the frist operand is positive, and a negative integer when the first operand is negative.
+      - Because of these differences, and to avoid confusion, you should try to work exclusively with positive integers when trying to calculate modulo or remainder.
+        If you can't, then make sure you know exactly which operator or method to use when working with negative integers.
